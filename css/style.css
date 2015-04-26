@@ -1,0 +1,209 @@
+/* Load Karla Google Font */
+@import url(http://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
+
+body {
+  font-family: 'Karla', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Begin Head */
+
+header {
+  width: 100%;
+  height: 520px;
+  background-image: url("../img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: .7px;
+  line-height: 1.3em;
+  margin-top: 100px;
+  font-weight: 700;
+}
+
+header h3 {
+  color: #ffffff;
+  letter-spacing: .1px;
+  font-size: 21px;
+}
+
+header .col-xs-6 {
+  margin-top: 90px;
+}
+
+#head {
+  max-width: 900px;
+}
+
+/* End Head */
+
+/* Begin Head Media Queries */
+
+@media only screen and (max-width: 992px) {
+  header .col-xs-6 {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  header h1 {
+    font-size: 39px;
+    line-height: 1.2em;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  header {
+    height: 570px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  header h1 {
+    font-size: 35px;
+    line-height: 1.2em;
+  }
+}
+
+/* End Head Media Queries */
+
+/* Begin Intro */
+
+#intro-section {
+  background-color: #fffbf7;
+}
+
+#intro {
+  max-width: 777.5px;
+  text-align: center;
+}
+
+#intro h2 {
+  color: #423b32;
+  text-align: center;
+  letter-spacing: .1px;
+  line-height: 1.3em;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 80px;
+}
+
+#intro p {
+  color: #423b32;
+  text-align: center;
+  font-size: 21px;
+  margin-top: 40px;
+}
+
+#cta {
+  width: 472px;
+  height: 87px;
+  border: none;
+  background-color: #ffb900;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: .1px;
+  margin-top: 40px;
+  margin-bottom: 90px;
+  padding: 0 20px;
+}
+
+#cta:hover {
+  background-color: #f6b200;
+}
+
+/* End Intro */
+
+/* Begin Intro Media Queries */
+
+@media only screen and (max-width: 639px) {
+  #intro h2 {
+    font-size: 25px;
+  }
+  #intro p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  #cta {
+    width: 95%;
+  }
+}
+
+/* End Intro Media Queries */
+
+/* Begin Main */
+
+#main {
+  max-width: 947.5px;
+  /*margin-top: 30px;*/
+}
+
+.asterisk {
+  color: #ffb900;
+}
+
+#main h2 {
+  color: #423b32;
+  text-align: left;
+  letter-spacing: .1px;
+  line-height: 1.2em;
+  font-weight: 700;
+  font-size: 31px;
+  margin-bottom: 25px;
+}
+
+#main p {
+  color: #423b32;
+  text-align: left;
+  font-size: 21px;
+}
+
+#main .row {
+  margin-top: 80px;
+}
+
+/* End Main */
+
+/* Begin Main Media Queries */
+
+@media only screen and (max-width: 768px) {
+  #main .col-xs-12 {
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  #main h2 {
+    font-size: 26px;
+  }
+  #main p {
+    font-size: 18px;
+  }
+}
+
+/* End Main Media Queries */
+
+/* Begin Footer */
+
+#footer {
+  max-width: 947.5px;
+  text-align: center;
+  margin-top: 170px;
+}
+
+#footer-color {
+  width: 100%;
+  height: 50px;
+  background-color: #f57313;
+  margin-top: 30px;
+}
+
+/* End Footer */
